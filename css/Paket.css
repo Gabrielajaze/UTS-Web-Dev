@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(26, 138, 117);
+}
+
+.wrapper{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#header1{
+    height: 50px;
+    background-color: rgb(6, 80, 47);
+    position: relative;
+}
+
+.button{
+    height: 50px;
+    padding-top: 10px;
+    
+    position: absolute;
+    right: 0%;
+
+}
+
+.button a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 35px;
+}
+
+.button a:hover{
+    color: aquamarine;
+}
+
+
+#section1{
+    height: 150px;
+    color: rgba(102, 48, 48, 0.541);
+    background-color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+#section1 h3{
+    color: brown;
+}
+
+#section2{
+    height: 100px;
+    color: rgba(255, 255, 255, 0.984);
+    text-align: left;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.flex{
+    height:420px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flexbox{
+    height: 210px;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.paket{
+    height: 210;
+    width: 50%;
+    color: aliceblue;
+  
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    display: flex;
+    padding: 5px;
+    margin: 2px;
+}
+
+.paket:hover{
+    background-color: rgb(33, 88, 56);
+    color: antiquewhite;
+}
+
+.image h3{
+    padding-bottom: 10px;
+
+}
+
+.image img{
+    height: 130px;
+    width:160x;
+    
+}
+
+.textbox{
+    font-size: 20px;
+    text-align: left;
+    padding-top: 31px;
+    padding-left: 30px;
+}
+
+
+
+
+footer{
+    height: 60px;
+    background-color: rgb(6, 33, 21);
+    text-align: center;
+    color: aliceblue;
+    padding-top: 40px;
+    font-size: 20px;
+}

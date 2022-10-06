@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(26, 138, 117);
+}
+
+.wrapper{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#header1{
+    height: 50px;
+    background-color: rgb(6, 80, 47);
+    position: relative;
+}
+
+.button{
+    height: 50px;
+    padding-top: 10px;
+    
+    position: absolute;
+    right: 0%;
+
+}
+
+.button a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 35px;
+}
+
+.button a:hover{
+    color: aquamarine;
+}
+
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+#header2{
+    height:300px;
+    width: 1100px;
+    left: 0%;
+    position: relative;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+.container{
+    position: absolute;
+    height: 280px;
+    width: 1100px;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     overflow: hidden;
+     transition: all 0.3s ease-in-out;
+}
+
+.image{
+    width: 1000px;
+    display: flex;
+    animation: slide 16s infinite;
+}
+
+.image img{
+    width: 1000px;
+}
+
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+
+#nav1{
+    position: relative;
+    right: 0%;
+    width: 500px;
+    background-color: azure;
+    color: rgb(22, 22, 151);
+    font-size: 30px;
+}
+
+.navbox{
+    position: absolute;
+    top: 20%;
+    font-size: 20px;
+}
+
+.navbox a{
+    color: rgb(22, 22, 151);
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.navbox a:hover{
+    color: rgb(1, 1, 3); 
+}
+
+.text{
+    color: rgb(218, 234, 247);
+    position: absolute;
+    left: 2%;
+    top: 5%;
+    width: 360px;
+    font-size: large;
+    font-family: cursive;
+    font-weight: 900;
+    text-align: left;
+}
+
+
+#section1{
+    height:280px;
+    width: 1100px;
+    position: relative;
+    margin-right: 10px;
+}
+
+#section1 h1{
+    padding-bottom: 30px;
+    font-size: 35px;
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btnhome{
+    position: absolute;
+    padding-top: 10px;
+    
+}
+
+.btnhome h1{
+    padding-bottom: 30px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btnhome h3{
+    font-size: 21px;
+    color: rgb(252, 250, 248);
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.btncontact{
+    display: flex;
+    justify-content: space-around;
+}
+
+.part1{
+    padding-left: 10px;
+}
+
+.part2{
+  padding-left: 30px;
+}
+
+.part3{
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+
+
+
+.btncontact h5{
+    font-size: 21px;
+    color: rgb(252, 250, 248);
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.btnbooking{
+    display: flex;
+    justify-content: space-around;
+}
+
+.left{
+    padding-left: 10px;
+}
+
+.center{
+  padding-left: 30px;
+}
+
+.right{
+    padding-left: 30px;
+  }
+
+label{
+    font-size: 21px;
+    color: rgb(252, 250, 248);
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.btnbooking h5{
+    font-size: 21px;
+    color: rgb(252, 250, 248);
+    font-weight: lighter;
+    text-align: justify;
+}
+
+
+
+#nav2{
+   
+    right: 0%;
+    width: 500px;
+    height: 280px;
+    font-size: 30px;
+}
+
+.imagemap{
+    position: relative;
+    width: 500px;
+    height: 280px;
+    
+}
+
+.map{
+    width: 500px;
+    height: 280px;
+    position: absolute;
+    transition: transform.2s;
+}
+
+.mapPulau{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.kiri{
+    padding-left: 10px;
+}
+
+.kiri img{
+    width: 300px;
+    height: 200px;
+}
+
+
+.kanan{
+    padding-left: 30px;
+  }
+
+
+.mapPulau h5{
+    font-size: 21px;
+    color: rgb(252, 250, 248);
+    font-weight: lighter;
+    text-align: justify;
+}
+
+
+#section2{
+    height: 100px;
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+
+.imagebox{
+    padding-top: 10px;
+    height: 100px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagebox a{
+    text-decoration: none;
+}
+
+.imagebox img{
+    height: 50px;
+    width: 80px;
+    border-radius: 60%;
+    transform: scale(1.5);
+}
+
+
+.imagebox a img:hover{
+    width: 90px;
+    height: 60px;
+}
+
+.gambar{
+    padding-left: 10px;
+}
+
+.gambar img{
+    width: 300px;
+    height: 200px;
+}
+
+
+.teks{
+    padding-left: 20px;
+  }
+
+.teks h5{
+    font-size: 17px;
+    color: rgb(252, 250, 248);
+    font-weight: lighter;
+    text-align: justify;
+}
+
+
+
+footer{
+    height: 60px;
+    background-color: rgb(6, 33, 21);
+    text-align: center;
+    color: aliceblue;
+    padding-top: 40px;
+    font-size: 20px;
+}
+
